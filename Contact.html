@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>MyContact Details</h1>
+    <p>City <a href="https://www.google.com"></a>Hyderabad</p>
+    <p>State <a href="https://www.youtube.com"></a>TS</p>
+    <p>Country <a href="https:/www.apple.com"></a>Apple HQ</p>
+
+    <form action="mailto:info@ani.com" method="post" enctype="text/plain"> <!-- Forms helps us to design our page in a way where the visitor of the page can submit their information -->
+      <label> Your Name </label> <!-- label and input are the two most important tags when using forms -->
+      <input type="text" name="yourName" value=""> <!-- it's a self closing tag, type is the heart of this tag and we can have numerous types such as text, password, checkbox etc. -->
+  <br>  <label> Your Email </label>
+    <input type="email" name="Your Email" value=""> <!-- names specified in these input tags will enable the mail client to read and associate the user entered value to the name specified as the attribute in the HTML. Which is cool! Also, having email as the type, adds some basic checks for the email field inbuilt (such as no @ symbol, having other special chars etc.)-->
+  <br> <label> Your Message : </label> <br>
+  <textarea name="YourMessage" rows="10" cols="40"></textarea>
+ <br>
+<input type="submit" name=""> <!-- the moment you click on the submit button it takes you to the page specified in the action attribute of the form tag -->
+    </form>
+  </body>
+</html>
